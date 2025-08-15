@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Gautham A Warrier</div>
+      <div>
+        <ul class="nav-links">
+          <!-- <li><a href="#about">About</a></li> -->
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Gautham A Warrier</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <!-- <li><a href="#about" onclick="toggleMenu()">About</a></li> -->
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificate" onclick="toggleMenu()">Certificate</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/profile-pic.png" alt="profile pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Gautham A Warrier</h1>
+        <p class="section__text__p2">Pursuing Btech</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Dowload Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='.#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/gautham-warrier/'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- <section id="about">
+      <p class="section__text__p1">Get To know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="./assets/about-pic.jpg " alt="picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="icon" class="icon" />
+              <h1>Experience</h1>
+              <p></p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="icon" class="icon" />
+              <h1>Education</h1>
+            </div>
+          </div>
+          <div class="text-container">
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section> -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers>">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Project Intern</h2>
+
+            <p class="section__text__p2">
+              Centre For Information Resource Management,CUSAT [July
+              2024-September 2024]
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/09-10-20240001003 (2).pdf')"
+              >
+                Certificate
+              </button>
+            </div>
+            <h2 class="experience-sub-title">Internship</h2>
+            <p class="section__text__p2">
+              Pumex Infotech Pvt Ltd June 2025-June 2025
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('./assets/Internship Certificate_ Gautham Warrier.pdf')"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Project</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/chatbot.png"
+                alt="chatbot"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Chatbot using streamLit
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/GauthamWarrier/chatbot'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img src="./assets/page.png" alt="sense-AI" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Sense-AI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/GauthamWarrier/Sense-ai'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/tic-tac-toe.png"
+                alt="chatbot"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Tic-tac-toe using react
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/GauthamWarrier/tic-tac-toe'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/imagebot.png"
+              alt="CaptionBot "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            CaptionBot using Gradio
+          </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/imagebot'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/todofastapi.png"
+              alt="CaptionBot "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Todo App using Fast API
+          </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/todo_api'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/ktuscholarhub.png"
+              alt="CaptionBot "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">KTU Scholar Hub</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/KTU-ScholarHub'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/resumeqa.png"
+              alt="Insightfolio"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Insightfolio</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/Insightfolio'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/smarttutorext.png"
+              alt="smartTutor "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            smartTutor-Chrome extension
+          </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/smartTutor'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container colour-container">
+          <div class="article-container">
+            <img
+              src="./assets/diabpredict.png"
+              alt="diabpredit "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">DiabPredict</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/GauthamWarrier/diabetes-prediction'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#certificate'"
+      />
+    </section>
+    <section id="certificate">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Certificates</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img src="./assets/forage.png" alt="forage" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Goldman Sachs - Software Engineering Job Simulation
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/MBA4MnZTNFEoJZGnk/NPdeQ43o8P9HJmJzg_MBA4MnZTNFEoJZGnk_Eo8GX4HNhiuBBtqr6_1738632140756_completion_certificate.pdf'"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/ibmskillsbuild.png"
+                alt="fundamentals"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Artificial Intelligence Fundamentals
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.credly.com/badges/1af2a429-bf2c-4a57-afb8-abc379f3bd80/public_url'"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/ibmskillsbuild.png"
+                alt="Started"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Getting Started with Artificial Intelligence
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.credly.com/badges/e6e32ce4-3ed6-4319-8549-da0e836fa7ea/public_url'"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-containers">
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img src="./assets/google.png" alt="google" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Foundations of Cybersecurity
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/verify/EPUTCGYHK7XJ'"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/michigan.png"
+                alt="Python Basics"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Python Basics</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://coursera.org/verify/BSYVG7QKTEGV'"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container colour-container">
+            <div class="article-container">
+              <img
+                src="./assets/nptel.png"
+                alt="Certificate for Programming, Data Structures and Algorithms Using Python"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Programming, Data Structures And Algorithms Using Python
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Programming, Data Structures And Algorithms Using Python.pdf', '_blank')"
+              >
+                Credential
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#certificate'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="email" class="icon contact-icon" />
+          <p>
+            <a href="mailto:gauthamawarrier@gmail.com"
+              >gauthamawarrier@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/gautham-warrier/">linkedin</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <!-- <li><a href="#about">About</a></li> -->
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
