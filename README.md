@@ -21,4 +21,4 @@ This is a personal portfolio website designed to showcase my work, skills, and p
 
 ## 📸 Demo
 
-https://clever-druid-d6f6b6.netlify.app/
+https://lucent-sunburst-ebd4f3.netlify.app/
